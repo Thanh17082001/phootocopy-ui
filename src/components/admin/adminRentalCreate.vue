@@ -704,7 +704,7 @@ export default {
         }
     },
     mounted(){
-        this.getCity()
+        // this.getCity()
         this.getAllCustomers()
         this.isPaymentSuccess()
         this.getAllProducts()

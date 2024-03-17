@@ -416,10 +416,10 @@ export default {
                 this.paymentSuccess= false
             }
         },
-        async getCity(){
-            const res = await axios.get('https://provinces.open-api.vn/api/')
-            this.city=[...res.data]
-        },
+        // async getCity(){
+        //     const res = await axios.get('https://provinces.open-api.vn/api/')
+        //     this.city=[...res.data]
+        // },
         async getDistricts(info){
             const code=info.code
             const res = await axios.get(`https://provinces.open-api.vn/api/p/${code}/?depth=2`)
@@ -748,7 +748,7 @@ export default {
         }
     },
     mounted(){
-        this.getCity()
+        // this.getCity()
         this.getAllCustomers()
         this.isPaymentSuccess()
     }

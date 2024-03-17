@@ -139,7 +139,7 @@
                             </div>
                         </div>
                     </th>
-                    <th class="col">
+                    <th class="col-1">
                         <div class="admin-table-title">
                             <p>Thanh toán</p>
                             <div class="admin-sort">
